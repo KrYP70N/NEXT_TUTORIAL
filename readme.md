@@ -7,3 +7,7 @@
 [Note 02: Setup](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/02-setup)
 
 [Note 03: Folder Structure](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/03-folder-structure)
+
+[Note 04: App Router](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/04-app-router)
+
+[Note 05: Layout](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/05-layout)
