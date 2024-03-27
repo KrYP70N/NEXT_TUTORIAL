@@ -16,3 +16,5 @@ You can reference NextJS related lesson note here.
 [Note 04: App Router](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/04-app-router)
 
 [Note 05: Layout](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/05-layout)
+
+[Note 06: Module CSS](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/06-module-css)
