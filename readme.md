@@ -1,5 +1,10 @@
 # Next js tutorial notes.
 
+Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation.
+
+You can reference NextJS related lesson note here.
+
+
 ## Contents
 
 [Note 01: Introduction](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/01-introduction)
