@@ -1,6 +1,6 @@
 const LoadingScreen = () => {
     return (
-        <p>loading</p>
+        <p>loading ....</p>
     )
 }
 
