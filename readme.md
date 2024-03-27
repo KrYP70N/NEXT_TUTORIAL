@@ -1,59 +1,26 @@
-# Layout
+# Current Path
 
-You can create layout component by creating `layout.tsx` file under specific folder(route) and can access page components from `child props`. Check example under following section.
-
-```
-import NavComponent from "@/components/nav/nav.component";
-
-interface Props {
-    children: React.ReactNode
-}
-
-const Layout : React.FC<Props> = ({ children }) =>  {
-    return (
-      <>
-        <NavComponent />
-        <p>layout </p>
-        {children}
-      </>
-    );
-}
-```
-
-
-## Loading Screen
-
-You can insert loading screen for your pages by creating component name with `loading.tsx` under `app` or specied route directory. 
-
-```
-const LoadingScreen = () => {
-    return (
-        <p>loading</p>
-    )
-}
-
-export default LoadingScreen
-```
-
-## Error Screen
-
-For the error screen you just need to create a component with `error.tsx` name under `app` directory.
-> you need to use "use client" and "use modules" directive for error.tsx, will explain these two directives later.
+You need to know current path/route for various reason. For this you just need to use `usePath()` with `use client` module.
 
 ```
 "use client"
-"use modules"
+import { usePathname } from 'next/navigation'
+import styles from './nav.component.module.css'
+import Link from 'next/link'
 
-const ErrorScreen = () => {
+const NavComponent = () => {
+
+    const path = usePathname()
+
+    console.log(path)
+
     return (
-        <p>Error</p>
+        <header className={styles.container}>
+            <h1>nav component</h1>
+            <Link href='/about' className={`${path === '/about'} && 'active'`} >About</Link>
+        </header>
     )
 }
 
-export default ErrorScreen
-
+export default NavComponent
 ```
-
-## Not Found Sceen
-
-Same like loading and error screen, you can create custom not found page with `not-found.tsx`.
