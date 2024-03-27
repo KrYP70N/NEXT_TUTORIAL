@@ -1,31 +1,15 @@
-# Setup
+# Folder Structure
+
+I will provide an explanation of the file and folder structure here. You can reference to the tables below for descriptions of each folder and file.
+
+## Folder Structure
+
+| Folder Name       | Description          |
+| ----------------- | -------------------- |
+| node_modules      | You can find installed modules(source code) under this folder. |
+| public            | You can keep public access like static image, videos and docuents. |
+| src               | If you enable `src` folder usage in [installation options](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/02-setup), you can find this folder. Our source code will go there |
 
 
-## System Requirement
-
-- (NodeJs 18.17 or later)[https://nodejs.org/en/download] 
-- macOS, Windows (including WSL), and Linux are supported.
 
 
-## Installation
-
-You can install with following command by running under your working directory.
-
-> To prevent creating a new folder under the working directory, add a `.` in the command. In this case, to separate sample code from my lesson notes, I'll create a new folder called code. You can find related sample code for each lesson under this folder.
-
-```
-npx create-next-app@latest .
-```
-
-## Installation Option
-
-After running the installation command, you'll encounter a prompt with installation options. Below is a table outlining the description of each option.
-
-| Option Name        | Description                          |
-| ------------------ | ------------------------------------ |
-| TypeScript         | Enable typescript for better type checking, error handling and more productive. |
-| ESLint             | ESLint helps you find and fix problems with your JavaScript code |
-| Tailwind CSS       | Just an another CSS utality for more productive | 
-| src/               | For using `src/` directory in your development process | 
-| App Router         | Enable App Router module | 
-| import alias       | You can customize file import struct with this options (can do it later) |
