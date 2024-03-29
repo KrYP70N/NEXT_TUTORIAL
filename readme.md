@@ -18,3 +18,5 @@ You can reference NextJS related lesson note here.
 [Note 05: Layout](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/05-layout)
 
 [Note 06: Module CSS](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/06-module-css)
+
+[Note 07: SSR vs CSR](https://github.com/KrYP70N/NEXT_TUTORIAL/tree/feature/07-ssr-csr)
